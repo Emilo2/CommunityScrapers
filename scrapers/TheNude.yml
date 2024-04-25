@@ -122,7 +122,7 @@ xPathScrapers:
       Tags: &tags
         Name:
           selector: //meta[@itemprop="keywords"]/@content
-          split: ","
+          split: ", "
       Studio: &studio
         Name: //h1/span[3]/a/text()
       Director: //h2/a/text()
